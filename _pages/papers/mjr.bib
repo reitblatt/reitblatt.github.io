@@ -1,0 +1,155 @@
+@STRING{springer = {Springer-Verlag}}
+@STRING{lncs = {Lecture Notes in Computer Science}}
+
+@STRING{jfp = {Journal of Functional Programming}}
+@STRING{dbpl = {Symposium on Database Programming Languages (DBPL)}}
+@STRING{ecoop =     {European Conference on Object-Oriented Programming (ECOOP)}}
+@STRING{popl =      {{ACM} {SIGPLAN--SIGACT} {S}ymposium on {P}rinciples of {P}rogramming {L}anguages ({POPL})}}
+@STRING{poplpre92 =  {{ACM} {S}ymposium on {P}rinciples of {P}rogramming {L}anguages ({POPL})}}
+@STRING{icfp =      {ACM {SIGPLAN} {I}nternational {C}onference on {F}unctional {P}rogramming ({ICFP})}}
+@Comment @STRING{pldi =      {ACM {SIGPLAN} {P}rogramming {L}anguages {D}esign and {I}mplementation ({PLDI})}}
+@STRING{pldi =      {{PLDI}}}
+@Comment @STRING{hotnets =      {ACM {SIGCOMM} {W}orkshop on {H}ot {T}opics in {N}etworks ({HotNets})}}
+@STRING{hotnets =      {{HotNets}}}
+@Comment @string{hotsdn = {ACM {SIGCOMM} {W}orkshop on {H}ot {T}opics in {S}oftware Defined {N}etworking ({HotSDN})}}
+@string{hotsdn = {{HotSDN}}}
+@Comment @STRING{sigcomm =      {ACM {SIGCOMM} Conference}}
+@STRING{sigcomm =      {{SIGCOMM}}}
+@STRING{tphols =    {International Conference on Theorem Proving in Higher Order Logics (TPHOLS)}}
+@string{planx =     { ACM {SIGPLAN} {W}orkshop on {P}rogramming {L}anguage {T}echnologies for {XML} (PLAN-X)}}
+
+@STRING{dbpl05 =  dbpl # ", Trondheim, Norway" }
+@STRING{dbpl07 =  dbpl # ", Vienna, Austria" }
+@STRING{ecoop04 =   ecoop # ", Oslo, Norway" }
+
+@STRING{pldi13 =   pldi # ", Seattle, WA" }
+
+@STRING{hotnets11 =   hotnets # ", Cambridge, MA" }
+
+@string{hotsdn13 = hotsdn # ", Hong Kong, HK" }
+
+@STRING{sigcomm12 =   sigcomm # ", Helsinki, Finland" }
+
+@STRING{pdmc10 =   {{PDMC}} # ", Twente, NL" }
+
+@STRING{acl209 =   {{ACL2}} # ", Boston, MA" }
+
+@inproceedings{frenetic-hotnets,
+  author = {Mark Reitblatt and Nate Foster and Jennifer Rexford and David Walker}, 
+  title =  {Consistent Updates for Software-Defined Networks: Change You Can Believe In },
+  booktitle = hotnets11, 
+  month =  nov,
+  year =   2011,
+  mjr =    "yes",
+  slides = { http://www.cs.cornell.edu/~reitblatt/papers/consistent-updates-hotnets11-slides.pdf },
+  pdf =    { http://www.cs.cornell.edu/~reitblatt/papers/consistent-updates-hotnets11.pdf },
+}
+
+@inproceedings{frenetic-sigcomm,
+  author = {Mark Reitblatt and Nate Foster and Jennifer Rexford and Cole Schlesinger and David Walker}, 
+  title =  {Abstractions for Network Update},
+  booktitle = sigcomm12, 
+  month =  aug,
+  year =   2012,
+  mjr =    "yes",
+  recent = "yes",
+  slides = { http://www.cs.cornell.edu/~reitblatt/papers/consistent-updates-sigcomm12-slides.pdf },
+  pdf =    { http://www.cs.cornell.edu/~reitblatt/papers/consistent-updates-sigcomm12.pdf },
+  video = { http://conferences.sigcomm.org/sigcomm/2012/video/SIGCOMM-VII-02-AbstractionsForNetworkUpdate.mp4 },
+  doi = {http://dx.doi.org/10.1145/2342356.2342427},
+}
+
+@inproceedings{frenetic-pldi,
+  author = {Arjun Guha and Mark Reitblatt and Nate Foster}, 
+  title =  {Machine-Verified Network Controllers},
+  booktitle = pldi13, 
+  month =  jun,
+  year =   2013,
+  mjr =    "yes",
+  pdf =    { http://www.cs.cornell.edu/~reitblatt/papers/verified-controllers-pldi13.pdf },
+  recent = "yes",
+  sources = { https://github.com/frenetic-lang/featherweight-openflow },
+}
+
+@article{overview-ieeecoms13,
+  author    = {Nate Foster and
+               Michael J. Freedman and
+               Arjun Guha and
+               Rob Harrison and
+               Naga Praveen Katta and
+               Christopher Monsanto and
+               Joshua Reich and
+               Mark Reitblatt and
+               Jennifer Rexford and
+               Cole Schlesinger and
+               Alec Story and
+               David Walker},
+  title     = {Languages for software-defined networks},
+  journal   = {IEEE Communications Magazine},
+  volume    = {51},
+  number    = {2},
+  year      = {2013},
+  pages     = {128--134},
+  doi  = {http://dx.doi.org/10.1109/MCOM.2013.6461197},
+  pdf       = {http://frenetic-lang.org/publications/overview-ieeecoms13.pdf},
+  mjr = "yes",
+  recent = "yes",
+}
+
+@inproceedings{fattire-hotsdn,
+  author = {Mark Reitblatt and Marco Canini and Nate Foster and Arjun Guha},
+  title = {FatTire: Declarative Fault Tolerance for Software Defined
+              Networks},
+  booktitle = hotsdn13,
+  month = aug,
+  year = 2013,
+  mjr = {yes},
+  recent = {yes},
+ pdf = { http://www.cs.cornell.edu/~reitblatt/papers/fault-tolerance-hotsdn13.pdf },
+ slides = { http://www.cs.cornell.edu/~reitblatt/papers/fault-tolerance-hotsdn13-slides.pdf },
+ sources = { http://github.com/frenetic-lang/fattire },
+}
+
+@inproceedings{acl2-labview,
+ author = {Kaufmann, Matt and Kornerup, Jacob and Reitblatt, Mark},
+ title = {Formal verification of LabVIEW programs using the ACL2 Theorem Prover},
+ booktitle = acl209,
+ month = may,
+ year = {2009},
+ location = {Boston, Massachusetts},
+ doi = {http://doi.acm.org/10.1145/1637837.1637851},
+ acmid = {1637851},
+ keywords = {ACL2, LabVIEW, formal verification, translator},
+ pdf = { http://www.cs.cornell.edu/~reitblatt/papers/acl2-labview.pdf },
+ slides = { http://www.cs.cornell.edu/~reitblatt/papers/acl2-labview-slides.pdf },
+ mjr = "yes",
+} 
+
+@inproceedings{preach,
+ author = {Bingham, Brad and Bingham, Jesse and Paula, Flavio M.  de and Erickson, John and Singh, Gaurav and Reitblatt, Mark},
+ title = {Industrial Strength Distributed Explicit State Model Checking},
+ booktitle = pdmc10,
+ month = sep,
+ year = {2010},
+ isbn = {978-0-7695-4265-2},
+ doi = {http://dx.doi.org/10.1109/PDMC-HiBi.2010.13},
+ acmid = {1936116},
+ keywords = {Explicit State Model Checking, Distributed Model Checking, Murphi},
+ mjr = "yes",
+}
+
+@MastersThesis{texas-thesis,
+  author =  {Mark Reitblatt},
+  title =   {A System for the Formal Verification of LabVIEW/G Diagrams},
+  type =    {Senior Honors Thesis},
+  school =  {Department of Computer Science, University of Texas at Austin},
+  address = {Austin, TX},
+  month =   jul,
+  year =    2009,
+  pdf =     {http://www.cs.cornell.edu/~reitblatt/papers/texas-thesis.pdf},
+  slides =  { http://www.cs.cornell.edu/~reitblatt/papers/texas-thesis-slides.pdf },
+  mjr =     "yes",
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
