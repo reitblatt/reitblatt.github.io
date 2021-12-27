@@ -17,7 +17,7 @@ permalink: /papers/
 
 {% include_relative papers/mjr-theses.html %}
 
-### Copyright
+## Copyright
 
 <small>These documents are included by the contributing authors to ensure 
 timely dissemination of scholarly and technical work on a non-commercial 
