@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Mark Reitblatt"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot.jpg"
   bio              : "I work in trust and safety at Meta (fka Facebook). PhD in Computer Science from Cornell."
   location         : "Seattle, Washington, USA"
   # email            :
@@ -298,7 +298,8 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: false
+      permalink: /:collection/:name
 
   # _pages
   - scope:
