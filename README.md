@@ -25,8 +25,3 @@ bundle exec jekyll serve
 To update the live site, git commit && git push
 
 ## To-do
-
-- Hide empty 'posts' page
-- Add google analytics
-- Remove 'WIP'
-- Kill old AWS site and fix SEO to point here
