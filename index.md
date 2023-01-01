@@ -3,6 +3,8 @@ title: Bio
 layout: single
 permalink:
 author_profile: true
+redirect_from:
+  - /about
 ---
 
 I'm a software engineering manager in the Integrity org at Meta (aka Trust and Safety at other companies) and a founding
