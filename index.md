@@ -7,7 +7,7 @@ redirect_from:
   - /about
 ---
 
-I'm a software engineering manager in the Integrity org at Meta (aka Trust and Safety at other companies) and a founding
+Former software engineer (and sometimes manager) in the Integrity org at Meta (aka Trust and Safety at other companies) and a founding
 member of the Civic Integrity team. Before I worked in Integrity, I built low-cost wireless networks in rural and poorly
 connected regions as part of the [Express Wi-Fi project](https://expresswifi.fb.com/).
 

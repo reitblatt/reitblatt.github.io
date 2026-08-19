@@ -89,7 +89,9 @@ yandex_site_verification:
 baidu_site_verification:
 
 # Social Sharing
-twitter:
+#twitter:
+#  username: "reitblatt"
+discord:
   username: "reitblatt"
 facebook:
   username:
@@ -126,9 +128,9 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      url: "https://twitter.com/reitblatt"
+    # - label: "Twitter"
+    #  icon: "fab fa-fw fa-square-x-twitter"
+    #  url: "https://twitter.com/reitblatt"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/reitblatt"
@@ -138,6 +140,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/reitblatt"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.com/users/909982359435239474"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/downloads/reitblatt-resume.pdf"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
